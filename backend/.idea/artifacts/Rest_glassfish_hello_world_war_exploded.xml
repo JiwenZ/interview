@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Rest_glassfish_hello_world:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Rest_glassfish_hello_world_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Back_end" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/jar/commons-beanutils-1.8.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/jar/commons-collections-3.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/jar/commons-lang-2.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/jar/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/jar/ezmorph-1.0.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/jar/json-lib-2.4-jdk15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/jar/jersey-client-1.19.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/jar/jersey-core-1.19.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/jar/jersey-json-1.19.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/jar/jersey-server-1.19.4.jar" />
+          <element id="library" level="project" name="Jersey-2.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Back_end/web/Web" />
+    </root>
+  </artifact>
+</component>
